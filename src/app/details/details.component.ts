@@ -8,7 +8,7 @@ import { routerTransition } from '../animations';
   selector: 'app-details',
   templateUrl: './details.component.html',
   styleUrls: ['./details.component.scss'],
-  animations: [routerTransition()],
+  animations: [routerTransition],
   host: {'[@routerTransition]': ''}
 })
 export class DetailsComponent implements OnInit {

@@ -10,7 +10,7 @@ import { routerTransition } from '../animations';
   selector: 'app-post',
   templateUrl: './post.component.html',
   styleUrls: ['./post.component.scss'],
-  animations: [routerTransition()],
+  animations: [routerTransition],
   host: {'[@routerTransition]': ''}
 })
 export class PostComponent implements OnInit {
