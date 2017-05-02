@@ -1,0 +1,39 @@
+p {
+    font-size:1.5em;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    #logo, .cta-btn {
+        margin: 0 auto;
+        display:block;
+    }
+    .cta-btn {
+        width:100%;
+        text-align:center;
+        margin-top:20px;
+    }
+     p {
+        font-size:1em;
+    }
+    #external-btn {
+        width:50px;
+        height:50px;
+        display:block;
+        margin: 0 auto 20px auto;
+    }
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+    p {
+        font-size:1.1em;
+    }
+
+    #external-btn {
+        width:80px;
+        height:80px;
+    }
+
+}

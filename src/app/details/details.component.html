@@ -1,0 +1,18 @@
+
+<div *ngIf="post" class="body-blur">  
+
+      <div class="row">
+        <div class="columns small-12 medium-10">
+          <h1>{{ post.title }}</h1>
+        </div>
+        <div class="columns small-12 medium-2">
+          <a href="{{ post.url }}"><img src="/assets/images/external.svg" id="external-btn"></a>
+        </div>
+      </div>
+
+      <div class="row columns">
+        <p>{{ post.description }}</p>
+      </div>
+
+
+</div>

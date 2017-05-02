@@ -1,1 +1,76 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+$bg: #2A3136;
+$text-color: #88949D;
+$accent-color: #00E4AC;
+
+body {
+    background:$bg;
+    color:$text-color;
+    font-family: 'Raleway';
+}
+
+.body-blur {
+    background: #2A3136 url(/assets/images/blurbg.jpg) no-repeat top center !important;
+    background-size: 90% !important;
+    height:100%;
+}
+
+a {
+    color:#fff;
+}
+a:hover {
+    color:$accent-color;
+}
+
+.cta-btn, .cta-btn:visited {
+    color:$accent-color;
+    border: 1px solid $accent-color;
+    padding: 5px 12px;
+    float:right;
+    border-radius: 5px;
+}
+.cta-btn:hover {
+    background: $accent-color;
+    color:$bg;
+}
+
+h1 {
+    font-family:'Raleway';
+    color:#fff;
+    margin-bottom:20px;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:4.2em;
+    line-height:1.2em;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+
+    h1 {
+        font-size:1.6em;
+    }
+
+    .body-blur {
+        background:$bg !important;
+    }
+
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+    h1 {
+        font-size:2.8em;
+        line-height:1em;
+    }
+    .body-blur {
+        background:$bg !important;
+    }
+
+
+}
+
