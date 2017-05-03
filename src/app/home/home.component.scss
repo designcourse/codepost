@@ -19,6 +19,7 @@
     max-width:none;
     left:24px;
     top:14px;
+    pointer-events: none;
 }
 object:hover {
     transform:scale(.9);

@@ -14,6 +14,10 @@ a#back {
     margin-bottom: 5px;
 }
 
+#external-btn object {
+    pointer-events: none;
+}
+
 /* Small only */
 @media screen and (max-width: 39.9375em) {
     #logo, .cta-btn {
