@@ -2,6 +2,18 @@ p {
     font-size:1.5em;
 }
 
+a#back {
+    background: url('/assets/images/back.svg') no-repeat;
+    width: 69px;
+    display:block;
+    color:#2A3136;
+    font-weight:bold;
+    text-transform:uppercase;
+    text-indent:16px;
+    padding-top:1px;
+    margin-bottom: 5px;
+}
+
 /* Small only */
 @media screen and (max-width: 39.9375em) {
     #logo, .cta-btn {

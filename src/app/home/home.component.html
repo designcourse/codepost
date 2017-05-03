@@ -7,7 +7,9 @@
           <a routerLink="/details/{{ post._id }}" class="post-title">{{ post.title }}</a>
         </div>
         <div class="columns small-12 large-2 show-for-large">
-          <a href="{{ post.url }}" target="_blank" class="external"><img src="/assets/images/external.svg"></a>
+          <a href="{{ post.url }}" target="_blank" class="external">
+            <object type="image/svg+xml" data="/assets/images/external.svg"></object>
+          </a>
         </div>
       </div>
       <p>{{ post.description | length: 130 }}</p>

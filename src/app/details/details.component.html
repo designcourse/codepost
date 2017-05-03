@@ -3,10 +3,11 @@
 
       <div class="row">
         <div class="columns small-12 medium-10">
+          <a routerLink="/" id="back">Back</a>
           <h1>{{ post.title }}</h1>
         </div>
         <div class="columns small-12 medium-2">
-          <a href="{{ post.url }}"><img src="/assets/images/external.svg" id="external-btn"></a>
+          <a href="{{ post.url }}" id="external-btn"><object type="image/svg+xml" data="/assets/images/external.svg"></object></a>
         </div>
       </div>
 

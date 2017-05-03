@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="498 268 70 70">
   <defs>
-    <style>
+    <style type="text/css">
       .cls-1 {
         fill: #00e4ac;
       }
@@ -8,6 +8,32 @@
       .cls-2 {
         fill: #2a3136;
       }
+
+     		
+	#Group_5 {
+  cursor:pointer;
+
+  }	
+	#Group_5:hover .cls-1 {
+		animation: animateCircle .5s forwards;
+		-webkit-animation: animateCircle .5s forwards;
+	}
+	#Group_5:hover  .cls-2 {
+		fill: #00e4ac;
+	}
+
+
+	@keyframes animateCircle {
+		0% {
+			fill: #00e4ac;
+		}
+		100% {
+
+      fill: #2a3136;
+		}
+	}
+  
+
     </style>
   </defs>
   <g id="Group_5" data-name="Group 5" transform="translate(-391 -311)">
